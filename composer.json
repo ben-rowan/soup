@@ -1,0 +1,21 @@
+{
+    "name": "ben-rowan/soup",
+    "description": "An experiment in how to put together an application",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    },
+    "autoload": {
+        "psr-4": {
+            "BenRowan\\Soup\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BenRowan\\Soup\\Tests\\": "tests/"
+        }
+    }
+}
